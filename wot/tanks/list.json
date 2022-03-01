@@ -1,0 +1,126 @@
+[
+  {
+    "nation": "United Kingdom",
+    "nation_id": "GB",
+    "tier": 10,
+    "type": "HT",
+    "role": "VERSATILE_HEAVY_TANK",
+    "class": "REWARD",
+    "name": "T95/FV4201 Chieftain",
+    "crews": {
+      "total": 4,
+      "list": [
+        "Commander",
+        "Gunner",
+        "Driver",
+        "Loader/Radio Operator"
+      ]
+    },
+    "modules": {
+      "guns": [
+          {
+            "name": "120mm Tank Gun L11",
+            "ammo": {
+              "regular": {
+                "type": "APCR",
+                "class": "REGULAR",
+                "caliber": 120,
+                "penetration": 270,
+                "damage": 440,
+                "speed": 1150,
+                "cost": 1050
+              },
+              "premium": {
+                "type": "APCR",
+                "class": "PREMIUM",
+                "caliber": 120,
+                "penetration": 322,
+                "damage": 440,
+                "speed": 1334,
+                "cost": 4800
+              },
+              "high_explosive": {
+                "type": "HESH",
+                "class": "HE",
+                "caliber": 120,
+                "penetration": 140,
+                "damage": 530,
+                "speed": 1067,
+                "cost": 950
+              }
+            },
+            "ammo_capacity": 40,
+            "reload_time": 10.5,
+            "rate_of_fire": 5.71,
+            "dpm": 2514,
+            "accuracy": 0.35,
+            "aiming_time": 2.10,
+            "elevation": 20,
+            "depression": -10,
+            "modulate_after_fire_stationary_camo": 0,
+            "modulate_after_fire_moving_camo": 0,
+            "weight": 1808
+          }
+        ],
+      "turrets": [
+        {
+          "armor": {
+            "front": 350,
+            "side": 175,
+            "rear": 35
+          },
+          "turret_traverse_speed": 30,
+          "modulate_health": 0,
+          "modulate_stationary_camo": 0,
+          "modulate_moving_camo": 0,
+          "view_range": 410,
+          "weight": 18000
+        }
+      ],
+      "engines": [
+        {
+          "name": "Continental AOI-1195-5A",
+          "engine_power": 1000,
+          "specific_power": 16.67,
+          "fire_probability": 0.15,
+          "weight": 998
+        }
+      ],
+      "tracks": [
+        {
+          "name": "T95/FV4201 Chieftain prototype",
+          "health": 250,
+          "armor": 20,
+          "repair_time": 12.03,
+          "max_payload": 65000,
+          "traverse_speed": 33,
+          "weight": 15000
+        }
+      ],
+      "radio": [
+        {
+          "name": "C42/B47 AFV stations complete",
+          "signal_range": 750,
+          "weight": 80
+        }
+      ]
+    },
+    "stats": {
+      "survivability": {
+        "health": 2200,
+        "hull": {
+          "armor": {
+            "front": 127,
+            "side": 88,
+            "rear": 48
+          }
+        }
+      },
+      "mobility": {
+        "top_speed": 46,
+        "reverse_speed": 15,
+        "pivot_turn": true
+      }
+    }
+  }
+]
